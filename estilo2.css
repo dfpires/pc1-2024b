@@ -1,0 +1,16 @@
+#container {
+    display: flex; /* layout flexível */
+    
+}
+#sidebar {
+    flex: 1; /* esta div vai ocupar 1 fração da tela*/
+    background-color: blue;
+    height: 800px;
+    padding-left: 10px;
+    
+}
+#main-content {
+    flex: 3; /* esta div vai ocupar 3 frações da tela*/
+    background-color: green;
+    padding-left:30px;
+}
